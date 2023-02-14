@@ -4,7 +4,7 @@
   "description": "Level 2 captsone project from Hyperiondev",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "nodemon ./server.js localhost 8080"
   },
   "author": "Adriaan Bornman",
@@ -15,7 +15,8 @@
     "express": "^4.18.2",
     "helmet": "^6.0.0",
     "node-fetch": "^3.2.10",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "chai": "^4.3.6",
